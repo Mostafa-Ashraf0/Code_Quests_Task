@@ -1,0 +1,177 @@
+.toolbar{
+    display: flex;
+    padding: 5px 15px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inc-dec-btns{
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+}
+
+.inc-dec-btns button{
+    width: 50%;
+    cursor: pointer;
+    padding: 4px;
+    border: none;
+    background-color: rgb(192, 192, 192);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 100%;
+}
+.inc-dec-btns button:hover{
+    background-color: rgb(102, 102, 105);
+}
+
+
+.res-full{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+}
+
+.res-full button{
+    width: 50%;
+    cursor: pointer;
+    padding: 4px;
+    border: none;
+    background-color: #4853F0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.res-full button:hover{
+    background-color: #1d2bf5;
+}
+
+.range{
+    height: 100%;
+}
+
+.range form{
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.range form input{
+    width: 40px;
+    height: 100%;
+    border: none;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+    border: 1px solid rgb(77, 74, 74);
+    padding: 0 5px;
+}
+
+.range form button{
+    width: 50px;
+    cursor: pointer;
+    padding: 4px;
+    border: none;
+    background-color: #4853F0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .inc-dec-btns{
+    width: 100px;
+}
+
+
+.res-full{
+    width: 200px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .inc-dec-btns{
+        width: 80px;
+        gap: 5px;
+    }
+
+
+    .res-full{
+        width: 150px;
+        gap: 5px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .inc-dec-btns{
+        width: 80px;
+        gap: 5px;
+    }
+
+
+    .res-full{
+        width: 150px;
+        gap: 5px;
+    }
+
+    .range form{
+    gap: 5px;
+    font-size: 14px;
+    }
+
+    .range form input{
+    width: 30px;
+    padding: 0 3px;
+}
+
+.range form button{
+    width: 40px;
+}
+ }
+
+ @media (max-width:575px){
+    .toolbar{
+        flex-wrap: wrap;
+        height: 60px;
+    }
+    .inc-dec-btns{
+        width: 80px;
+        gap: 5px;
+        height: 20px;
+    }
+
+
+    .res-full{
+        width: 150px;
+        gap: 5px;
+        height: 30px;
+    }
+
+    .range{
+        height: 50%;
+        margin-bottom: 5px;
+    }
+
+    .range form{
+    gap: 5px;
+    font-size: 14px;
+    }
+
+    .range form input{
+    width: 30px;
+    padding: 0 3px;
+}
+
+.range form button{
+    width: 40px;
+}
+}

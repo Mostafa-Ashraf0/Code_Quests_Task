@@ -1,0 +1,73 @@
+header{
+    position: fixed;
+    height: 60px;
+    width: calc(100% - 200px);
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    color: #2C2C2C;
+    z-index: 2;
+}
+
+header h1{
+    font-size: 25px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-icon{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right button{
+    width: 100px;
+    cursor: pointer;
+    padding: 4px;
+    border: none;
+    background-color: #4853F0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    display: none;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    header{
+        width: 100%;
+    }
+    .right button{
+        display: block;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header{
+        width: 100%;
+    }
+    .right button{
+        display: block;
+    }
+ }
+
+ @media (max-width:575px){
+    header{
+        width: 100%;
+    }
+    .right button{
+        display: block;
+    }
+}
+
