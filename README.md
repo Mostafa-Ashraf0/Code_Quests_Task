@@ -1,12 +1,42 @@
-# React + Vite
+## Setup instructions:
+1. Clone the repository
+2. Go to project folder:
+3. Install dependencies (Node.js, React , react router , vite):
+4. Run the project:(npm run dev)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div style = "display:flex; gap:10px;">
+  <img src="login.amazon.PNG" alt="login Screenshot" width="30%" height = "auto">
+  <img src="home.amazon.PNG" alt="home Screenshot" width="30%" height = "auto">
+  <img src="cart.amazon.PNG" alt="cart Screenshot" width="30%" height = "auto">
+  <img src="orders.amazon.PNG" alt="orders Screenshot" width="30%" height = "auto">
+  <img src="products.amazon.PNG" alt="products Screenshot" width="30%" height = "auto">
+  <img src="product.amazon.PNG" alt="product Screenshot" width="30%" height = "auto">
+</div>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tools:
+- React.js
+- Vite
+- React router
+- Css
+- Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Features
+
+- User authentication (login/register) with local storage
+- Fetch and display data from JSONPlaceholder
+- Display data in a paginated
+- Context Api for state management
+- slice viewed data using two inputs [From , to]
+- Full view button to show all records in one page
+- Reset button that return to the initial state of the table
+- Search bar to search for record by ID
+- Form to add new record
+- Responsive design for mobile and desktop
+- Real-time updates
+
+## API used
+all data comes from  "https://jsonplaceholder.typicode.com/photos"
+
