@@ -5,12 +5,10 @@
 4. Run the project:(npm run dev)
 
 <div style = "display:flex; gap:10px;">
-  <img src="login.amazon.PNG" alt="login Screenshot" width="30%" height = "auto">
-  <img src="home.amazon.PNG" alt="home Screenshot" width="30%" height = "auto">
-  <img src="cart.amazon.PNG" alt="cart Screenshot" width="30%" height = "auto">
-  <img src="orders.amazon.PNG" alt="orders Screenshot" width="30%" height = "auto">
-  <img src="products.amazon.PNG" alt="products Screenshot" width="30%" height = "auto">
-  <img src="product.amazon.PNG" alt="product Screenshot" width="30%" height = "auto">
+  <img src="1.PNG" alt="login Screenshot" width="30%" height = "auto">
+  <img src="2.PNG" alt="home Screenshot" width="30%" height = "auto">
+  <img src="3.PNG" alt="cart Screenshot" width="30%" height = "auto">
+  <img src="4.PNG" alt="orders Screenshot" width="30%" height = "auto">
 </div>
 
 
