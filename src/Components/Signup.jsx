@@ -5,7 +5,7 @@ import { AppContext } from "../context/ContextApi";
 import { Link } from "react-router-dom";
 export default function Signup(){
     const items = JSON.parse(localStorage.getItem("user")) || [];
-    const {email,pass,setUser,setPassword} = useContext(AppContext);
+    const {email,pass,setUser,setPassword,setLoged} = useContext(AppContext);
     const navigate = useNavigate();
     const handleSubmit = (e)=>{
         e.preventDefault();
@@ -17,7 +17,8 @@ export default function Signup(){
         localStorage.setItem("user", JSON.stringify(items));
         setUser(email.current.value);
         setPassword(pass.current.value);
-        navigate("/")
+        navigate("/");
+        setLoged(true);
     }
     return(
         <div className="signup">

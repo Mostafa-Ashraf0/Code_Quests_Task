@@ -12,6 +12,7 @@ export const AppProvider = ({children}) =>{
     const [error, setError] = useState(null);
     const [formDisplay, setFormDisplay] = useState("none");
     const [btnDisplay, setBtnDisplay] = useState("block");
+    const [loged, setLoged] = useState(false);
     const startPoint = useRef();
     const endPoint = useRef();
     const searchPoint = useRef();
@@ -90,7 +91,9 @@ export const AppProvider = ({children}) =>{
         url,
         albumUrl,
         email,
-        pass
+        pass,
+        loged,
+        setLoged
         }}> 
             {children}
         </AppContext.Provider>

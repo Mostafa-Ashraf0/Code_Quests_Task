@@ -4,7 +4,7 @@ import { useContext} from "react";
 import { AppContext } from "../context/ContextApi";
 import { Link } from "react-router-dom";
 export default function Login(){
-    const {setUser,setPassword,email,pass} = useContext(AppContext);
+    const {setUser,setPassword,email,pass,setLoged} = useContext(AppContext);
     const navigate = useNavigate();
     const users = JSON.parse(localStorage.getItem("user")) || [];    
     const handleSubmit = (e)=>{
@@ -14,7 +14,8 @@ export default function Login(){
         if(userFound){
             setUser(email.current.value);
             setPassword(pass.current.value);
-            navigate("/")
+            navigate("/");
+            setLoged(true);
         }else{
             alert("email not found")
         }
