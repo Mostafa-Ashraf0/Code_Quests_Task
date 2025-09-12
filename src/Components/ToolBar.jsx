@@ -25,9 +25,9 @@ export default function ToolBar(){
             <div className="range">
                 <form action="submit" onSubmit={handleSubmit}>
                     <label htmlFor="start">from</label>
-                    <input type="text" className="startIndex" ref={startPoint} required/>
+                    <input type="number" className="startIndex" ref={startPoint} required/>
                     <label htmlFor="end">to</label>
-                    <input type="text" className="endIndex" ref={endPoint} required/>
+                    <input type="number" className="endIndex" ref={endPoint} required/>
                     <button type="submit">View</button>
                 </form>
             </div>

@@ -36,19 +36,19 @@ export default function CreateNewItem(){
             <form action="" className="create-new-item" style={{display:formDisplay}} onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="albumid">AlbumID</label>
-                    <input type="text" placeholder="ex 400" ref={albumid}/>
+                    <input type="number" placeholder="ex: 4" ref={albumid}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="title">Title</label>
-                    <input type="text" placeholder="first" ref={title}/>
+                    <input type="text" placeholder="ex: accusamus ea aliquid e" ref={title}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="url">URL</label>
-                    <input type="text" placeholder="https:/fsda" ref={url}/>
+                    <input type="text" placeholder="ex: https://via.placeholder.com/600/92c952" ref={url}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="albumurl">AlbumURL</label>
-                    <input type="text" placeholder="https:/sdfa" ref={albumUrl}/>
+                    <input type="text" placeholder="ex: https://via.placeholder.com/150/92c952" ref={albumUrl}/>
                 </div>
                 <button type="submit" style={{marginRight:"10px"}}>Add</button>
                 <button onClick={handleCancelClick}>Cancel</button>
